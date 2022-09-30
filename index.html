@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <header class="header-component">
+      <nav class="header-component__image-section">
+        <img src="./images/logo.svg" alt="company logo">
+        <button>Try it free</button>
+      </nav>
+
+      <article class="header-component__info-section">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button>Get Started For Free</button>
+      </article>
+    </header>
+
+    <div class="screen-mockups-component" role="region" aria-labelledby="screen-mockups">
+      <figure id="screen-mockups">
+        <img src="./images/screen-mockups.svg" alt="screen mockups">
+      </figure>
+    </div>
+
+    <div class = "stats-component" role="region" aria-labelledby="stats">
+      <article class="stats-component__communities-count" id="stats">
+        <img src="./images/icon-communities.svg" alt="communities icon">
+        <h2>1.4k+</h2>
+        <p>Communities Formed</p>
+      </article>
+      <article class="stats-component__messages-count">
+        <img src="./images/icon-messages.svg" alt="messages icon">
+        <h2>2.7m+</h2>
+        <p>Messages Sent</p>
+      </article>
+    </div>
+
+    <div class="grow-together-component" role="region" aria-labelledby="grow-together">
+      <img class="grow-together-component__top-img" src="./images/bg-section-top-mobile-1.svg" id="grow-together">
+      <div class="grow-together-component__main">
+        <figure class="grow-together-component__main-img">
+          <img src="./images/illustration-grow-together.svg" alt="grow together illustration">
+        </figure>
+        <section class="grow-together-component__main-info">
+          <h2>Grow Together</h2>
+          <p>Generate meaningful discussion with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </section>
+      </div>
+      <img class="grow-together-component__bottom-img" src="./images/bg-section-bottom-mobile-1.svg" alt="bottom design">
+    </div>
+
+    <div class="conversations-component" role="region" aria-labelledby="conversations">
+      <figure>
+        <img src="./images/illustration-flowing-conversation.svg" alt="flowing conversations illustration" id="conversations">
+      </figure>
+      <section>
+        <h2>Flowing Conversations</h2>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      </section>
+    </div>
+
+    <div class="your-users-component" role="region" aria-labelledby="your-users">
+      <img class="your-users-component__top-img" src="./images/bg-section-top-mobile-2.svg" id="your-users">
+      <div class="your-users-component__main">
+        <figure class="your-users-component__main-img">
+          <img src="./images/illustration-your-users.svg" alt="your users illustration">
+        </figure>
+        <section class="your-users-component__main-info">
+          <h2>Your Users</h2>
+          <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+        </section>
+      </div>
+      <img class="your-users-component__bottom-img" src="./images/bg-section-bottom-mobile-2.svg" alt="bottom design">
+    </div>
+
+    <main class="build-community-component" aria-labelledby="build-community">
+      <h2 id="build-community">Ready To Build Your Community?</h2>
+      <button>Get Started For Free</button>
+    </main>
+
+    <footer class="footer-component">
+      <figure class="footer-component__footer-top-img">
+        <img src="./images/bg-footer-top-mobile.svg" alt="footer top design">
+      </figure>
+      <article class="footer-component__newsletter-section">
+        <h2 class="footer-component__newsletter-section-header">Newsletter</h2>
+        <p class="footer-component__newsletter-section-info">To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email address</p>
+        <label for="email">Email</label>
+        <input class="footer-component__newsletter-section-input" type="email" aria-label="email">
+        <button class="footer-component__newsletter-section-button">Subscribe</button>
+      </article>
+
+      <article class="footer-component__company-info-section">
+        <figure>
+          <img src="./images/logo.svg" alt="company logo">
+        </figure>
+        <h3>Lorem ipsum dolor sit amet, consectetur adispiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</h3>
+      </article>
+
+      <div class="contact-us-section">
+        <article class="contact-us-section__phone">
+          <figure>
+            <img src="./images/icon-phone.svg" alt="phone icon">
+          </figure>
+          <h3>Phone: +1-543-123-4567</h3>
+        </article>
+        <article class="contact-us__email">
+          <figure>
+            <img src="./images/icon-email.svg" alt="email icon">
+          </figure>
+          <h3>example@huddle.com</h3>
+        </article>
+      </div>
+
+      <figure class="footer-component__social-section">
+        <img src="./images/square-facebook-brands.svg" alt="facebook icon">
+        <img src="./images/square-instagram-brands.svg" alt="instagram icon">
+        <img src="./images/square-twitter-brands.svg" alt="twitter icon">
+      </figure>
+    </footer>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/aniru-dh21">Ramachandra Anirudh Vemulapalli</a>.
+    </p>
+  </footer>
+</body>
+</html>
