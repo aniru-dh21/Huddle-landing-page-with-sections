@@ -2,6 +2,8 @@
 
 ![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)
 
+Live Solution: [Huddle-landing-page-with-sections](https://aniru-dh21.github.io/Huddle-landing-page-with-sections/).
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
